@@ -1,0 +1,91 @@
+body {
+  font-family: "Jersey 25", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  border-bottom: 5px solid black;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+.heading {
+  font-weight: 600px;
+  text-align: center;
+  color: #242424a7;
+  font-size: 50px;
+}
+
+header ::after {
+  content: "(Between 1 and 20)";
+  position: absolute;
+  color: black;
+  top: -10px;
+  right: 0;
+  font-size: large;
+  margin: 5px;
+}
+
+.number {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 500;
+  background-color: rgb(80, 78, 78);
+  display: inline;
+  position: absolute;
+  width: 3rem;
+  right: 47%;
+  top: 40px;
+  padding: 5px 20px;
+}
+.reset {
+  font-family: "Jersey 25", sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  margin: 5px;
+}
+
+button:hover {
+  cursor: none;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+input {
+  height: 70px;
+  width: 170px;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 7px;
+}
+
+.form {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
+.submit {
+  padding: 3%;
+  margin: 15%;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  font-family: "Jersey 25", sans-serif;
+}
+
+.board {
+  position: absolute;
+  right: 150px;
+  top: 180px;
+  padding: 15px;
+}
+
+input::placeholder {
+  font-size: 18px;
+}
